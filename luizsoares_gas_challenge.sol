@@ -1,0 +1,1 @@
+pragma solidity 0.4.18;contract g{address o;address r;uint b;uint v=105;function g(address q){o=msg.sender;r=q;}function i()payable{assert(msg.sender==o);}function d(){if(block.number-b>v||b==0){uint x=0;b!=0?x=b%100:x=5;b=block.number;r.send(this.balance*x/100);}else{revert();}}}
